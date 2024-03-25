@@ -1,186 +1,305 @@
 // PRODUCTOS
 const productos = [
-    // Abrigos
+    // IMPERIALES
     {
-        id: "abrigo-01",
-        titulo: "Abrigo 01",
-        imagen: "./img/abrigos/01.jpg",
+        id: "imperial-01",
+        titulo: "Imperial cincelado en alpaca",
+        imagen: "./img/imperiales/impealpaca.jpeg",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Imperiales",
+            id: "imperiales"
         },
         precio: 1000
     },
     {
-        id: "abrigo-02",
-        titulo: "Abrigo 02",
-        imagen: "./img/abrigos/02.jpg",
+        id: "imperial-02",
+        titulo: "Imperial de ceramica",
+        imagen: "./img/imperiales/impeceramica.jpeg",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Imperiales",
+            id: "imperiales"
         },
         precio: 1000
     },
     {
-        id: "abrigo-03",
-        titulo: "Abrigo 03",
-        imagen: "./img/abrigos/03.jpg",
+        id: "imperial-03",
+        titulo: "Imperial de alpaca en cuero crudo",
+        imagen: "./img/imperiales/impecrudoabs.jpeg",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Imperiales",
+            id: "imperiales"
         },
         precio: 1000
     },
     {
-        id: "abrigo-04",
-        titulo: "Abrigo 04",
-        imagen: "./img/abrigos/04.jpg",
+        id: "imperial-04",
+        titulo: "Impeial crudo con posamate",
+        imagen: "./img/imperiales/impecrudoposa.jpeg",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Imperiales",
+            id: "imperiales"
         },
         precio: 1000
     },
     {
-        id: "abrigo-05",
-        titulo: "Abrigo 05",
-        imagen: "./img/abrigos/05.jpg",
+        id: "imperial-05",
+        titulo: "Imperial en cuero rosa",
+        imagen: "./img/imperiales/imperosa.jpeg",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Imperiales",
+            id: "imperiales"
         },
         precio: 1000
     },
-    // Camisetas
+    // Torpedos
     {
-        id: "camiseta-01",
-        titulo: "Camiseta 01",
-        imagen: "./img/camisetas/01.jpg",
+        id: "torpedo-01",
+        titulo: "Torpedo cincelado en alpaca",
+        imagen: "./img/torpedos/torpedoalpaca.jpeg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
-        },
-        precio: 1000
-    },
-    {
-        id: "camiseta-02",
-        titulo: "Camiseta 02",
-        imagen: "./img/camisetas/02.jpg",
-        categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Torpedos",
+            id: "torpedos"
         },
         precio: 1000
     },
     {
-        id: "camiseta-03",
-        titulo: "Camiseta 03",
-        imagen: "./img/camisetas/03.jpg",
+        id: "torpedo-02",
+        titulo: "Torpedo cincelado al lacre, cuero natural",
+        imagen: "./img/torpedos/torpelacrenatural.jpeg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Torpedos",
+            id: "torpedos"
         },
         precio: 1000
     },
     {
-        id: "camiseta-04",
-        titulo: "Camiseta 04",
-        imagen: "./img/camisetas/04.jpg",
+        id: "torpedo-03",
+        titulo: "Torpedo imperial cuero crudo",
+        imagen: "./img/torpedos/torpedoimperial.jpeg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Torpedos",
+            id: "torpedos"
         },
         precio: 1000
     },
     {
-        id: "camiseta-05",
-        titulo: "Camiseta 05",
-        imagen: "./img/camisetas/05.jpg",
+        id: "torpedo-04",
+        titulo: "Torpedo imperial cuero croco",
+        imagen: "./img/torpedos/torpeimpecroco.jpeg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Torpedos",
+            id: "torpedos"
         },
         precio: 1000
     },
     {
-        id: "camiseta-06",
-        titulo: "Camiseta 06",
-        imagen: "./img/camisetas/06.jpg",
+        id: "torpedo-05",
+        titulo: "Torpedo cuero pelota",
+        imagen: "./img/torpedos/torpedopelota.jpeg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Torpedos",
+            id: "torpedos"
         },
         precio: 1000
     },
     {
-        id: "camiseta-07",
-        titulo: "Camiseta 07",
-        imagen: "./img/camisetas/07.jpg",
+        id: "torpedo-06",
+        titulo: "Torpedo cincelado al lacre",
+        imagen: "./img/torpedos/torpedolacre.jpeg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Torpedos",
+            id: "torpedos"
         },
         precio: 1000
     },
     {
-        id: "camiseta-08",
-        titulo: "Camiseta 08",
-        imagen: "./img/camisetas/08.jpg",
+        id: "torpedo-07",
+        titulo: "Torpedo imperial cuero crudo con base",
+        imagen: "./img/torpedos/torpedoimperial.jpeg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
-        },
-        precio: 1000
-    },
-    // Pantalones
-    {
-        id: "pantalon-01",
-        titulo: "Pantalón 01",
-        imagen: "./img/pantalones/01.jpg",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Torpedos",
+            id: "torpedos"
         },
         precio: 1000
     },
     {
-        id: "pantalon-02",
-        titulo: "Pantalón 02",
-        imagen: "./img/pantalones/02.jpg",
+        id: "torpedo-08",
+        titulo: "Torpedo cincelado en alpaca",
+        imagen: "./img/torpedos/torpedoalpaca.jpeg",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Torpedos",
+            id: "torpedos"
+        },
+        precio: 1000
+    },
+    // CAMIONEROS
+    {
+        id: "camionero-01",
+        titulo: "Camionero ",
+        imagen: "./img/camioneros/camioneroalpaca01.jpeg",
+        categoria: {
+            nombre: "Camioneros",
+            id: "camioneros"
         },
         precio: 1000
     },
     {
-        id: "pantalon-03",
-        titulo: "Pantalón 03",
-        imagen: "./img/pantalones/03.jpg",
+        id: "camionero-02",
+        titulo: "Camionero 02",
+        imagen: "./img/camioneros/camioneroalpaca01.jpeg",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Camioneros",
+            id: "camioneros"
         },
         precio: 1000
     },
     {
-        id: "pantalon-04",
-        titulo: "Pantalón 04",
-        imagen: "./img/pantalones/04.jpg",
+        id: "camionero-03",
+        titulo: "Camionero cincelado en alpaca",
+        imagen: "./img/camioneros/camioneroalpaca02.jpeg",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Camioneros",
+            id: "camioneros"
         },
         precio: 1000
     },
     {
-        id: "pantalon-05",
-        titulo: "Pantalón 05",
-        imagen: "./img/pantalones/05.jpg",
+        id: "camionero-04",
+        titulo: "Camionero 04",
+        imagen: "./img/camioneros/camioneroalpaca01.jpeg",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Camioneros",
+            id: "camioneros"
         },
         precio: 1000
-    }
+    },
+    {
+        id: "camionero-05",
+        titulo: "Camionero 05",
+        imagen: "./img/camioneros/camioneroalpaca02.jpeg",
+        categoria: {
+            nombre: "Camioneros",
+            id: "camioneros"
+        },
+        precio: 1000
+    },
+    // BOMBILLAS
+    {
+        id: "bombilla-01",
+        titulo: "Bombillon de alpaca con pico en bronce",
+        imagen: "./img/bombillas/bombipicoloro.jpeg",
+        categoria: {
+            nombre: "Bombillas",
+            id: "bombillas"
+        },
+        precio: 1000
+    },
+    {
+        id: "bombilla-02",
+        titulo: "Bombillon de alpaca",
+        imagen: "./img/bombillas/bombisalpaca.jpeg",
+        categoria: {
+            nombre: "Bombillas",
+            id: "bombillas"
+        },
+        precio: 1000
+    },
+    {
+        id: "canasta-01",
+        titulo: "Canasta de cuero crudo, manija cocida al tiento",
+        imagen: "./img/canastas/Canastacruda02.jpeg",
+        categoria: {
+            nombre: "Canastas",
+            id: "canastas"
+        },
+        precio: 1000
+    },
+    {
+        id: "canasta-02",
+        titulo: "Canasta de cuero crudo, manija de tiento",
+        imagen: "./img/canastas/Canastacrudo01.jpeg",
+        categoria: {
+            nombre: "Canastas",
+            id: "canastas"
+        },
+        precio: 1000
+    },
+    {
+        id: "canasta-03",
+        titulo: "Canasta de cuero, 4 espacios",
+        imagen: "./img/canastas/Canastacuero01.jpeg",
+        categoria: {
+            nombre: "Canastas",
+            id: "canastas"
+        },
+        precio: 1000
+    },
 ];
+
+const contenedorProductos = document.getElementById('contenedorProductos');
+// const botonCategorias = document.querySelectorAll ('.boton-categoria');
+const botonesCategorias = document.querySelectorAll(".boton-categoria");
+const tituloPrincipal = document.getElementById('titulo-principal')
+let botonesAgregar = document.querySelectorAll(".producto-agregar");
+
+const cargarProductos = (productosElegidos) => {
+
+    contenedorProductos.innerHTML= ''
+
+    productosElegidos.forEach(producto => {
+        const div = document.createElement('div');
+        div.classList.add('producto');
+        div.innerHTML = `
+        <img class="producto-imagen" src=${producto.imagen} alt=${producto.titulo}>
+        <div class="producto-detalles">
+        <h3 class="producto-titulo">${producto.titulo}</h3>
+        <p class="producto-precio">$${producto.precio}</p>
+        <button class="producto-agregar" id"${producto.id}" >Agregar</button>`;
+
+        contenedorProductos.append(div)
+    })
+    actualizarBotonesAgregar();
+}
+cargarProductos(productos);
+
+
+
+    botonesCategorias.forEach(boton => {
+        boton.addEventListener("click", (e) =>{
+            
+            botonesCategorias.forEach(boton => boton.classList.remove("active"))
+            
+            e.currentTarget.classList.add("active");
+
+            if(e.currentTarget.id != 'todos'){
+                const productoCategoria = productos.find(producto => producto.categoria.id === e.currentTarget.id)
+                tituloPrincipal.innerText = productoCategoria.categoria.nombre;
+
+                const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
+            cargarProductos(productosBoton);
+            } else {
+                tituloPrincipal.innerText = "Todos los productos"
+                cargarProductos(productos)
+            }
+            
+        })
+    })
+    
+
+const actualizarBotonesAgregar = () => {
+    botonesAgregar = document.querySelectorAll('.producto-agregar')
+
+    botonesAgregar.forEach(boton => {
+        boton.addEventListener('click', agregarCarrito)
+    })
+}
+
+const productosEnCarrito = [];
+
+const agregarCarrito = () => {
+    const idBoton = e.currentTarget.id;
+    const productoAgregado = productos.find(producto => producto.id === idBoton);
+
+    productosEnCarrito.push(productoAgregado)
+    console.log(productosEnCarrito);
+}
